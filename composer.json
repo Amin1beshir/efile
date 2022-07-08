@@ -1,0 +1,34 @@
+{
+	"name": "File-Sharing Manager/File-Sharing Manager",
+	"description": "File-Sharing Manager is a System, clients-oriented, private file sharing web application.",
+	"type": "project",
+	"license": "GPL-3.0-or-later",
+	"homepage": "https://localhost/file-sharing/",
+	"support": {
+			"email": "aminbeshir265@gmail.com",
+			"issues": "https://github.com/File-Sharing Manager/File-Sharing Manager-legacy/issues",
+			"source": "https://github.com/File-Sharing Manager/File-Sharing Manager-legacy/"
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"prefer-stable": true,
+	"autoload": {
+        "psr-4": {
+            "File-Sharing Manager\\": "includes/"
+        },
+        "classmap": ["includes"],
+		"files": [
+		]
+	},
+	"require": {
+        "php": ">=7.0",
+        "claviska/simpleimage": "~3",
+        "enshrined/svg-sanitize": "^0.13",
+        "moxiecode/plupload": "3.1.2",
+        "paragonie/random_compat": "^2.0",
+        "phpmailer/phpmailer": "~6.1",
+		"tamtamchik/simple-flash": "^1.2",
+		"hybridauth/hybridauth": "^3.0"
+	}
+}
